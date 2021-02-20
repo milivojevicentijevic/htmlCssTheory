@@ -122,3 +122,44 @@ hgroup h4 span {
     color: var(--blue);
     line-height: 1.5;
 }
+/* team */
+.team {
+    background-color: var(--blue);
+    padding: 80px 0;
+    text-align: center;
+}
+.team h2 {
+    color: var(--white);
+    text-align: center;
+    font-size: 3rem;
+}
+.team h2 + p {
+    text-align: center;
+    color: var(--lightGray);
+}
+.team article {
+    float: left;
+    width: 25%;
+    margin-top: 50px;
+}
+.team article .wrap{
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 40px;
+    margin: 0 20px;
+}
+.team article .wrap img{
+    border-radius: 50%;
+}
+.team article:first-child .wrap {
+    margin-left: 0px;
+}
+.team article:last-child .wrap {
+    margin-right: 0px;
+}
+.team article .wrap h3 {
+    color: var(--white);
+    font-size: 1.2rem;
+}
+.team article .wrap h5 {
+    color: var(--lightGray);
+}
